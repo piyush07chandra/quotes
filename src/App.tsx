@@ -3,7 +3,7 @@ import  { useState } from 'react';
 import axios from 'axios';
 
 
-function App() {
+const  App: React.FC = () => {
  
   const [quote, setQuote] = useState<string>('');
   const [savedQuotes, setSavedQuotes] = useState<string[]>([]);
